@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import ElizabethWangari from '../assets/staff/ElizabethWangari.png';
 
 import './About.css';
+import { TwoAlt, Five, OverThenUnder, Two } from '../components/TitleStyles';
 
 export default function About() {
     return (
@@ -13,7 +14,8 @@ export default function About() {
             <section id='overview'>
                 <div className='row'>
                     <div className='col-md-3 align-self-center about-title '>
-                        <p>About Us</p>
+                        {/* <p>About Us</p> */}
+                        <Five heading='About Us' tagline='Overview' />
                     </div>
                     <div className='col-md-9'>
                         <article>
@@ -36,7 +38,10 @@ export default function About() {
 
             <section id='team'>
                 <div className="team-title">
-                    <p>Meet The <span><br />Team</span></p>
+                    <TwoAlt 
+                        alt="Meet The"
+                        title="Team" />
+                    {/* <p>Meet The <span><br />Team</span></p> */}
                 </div>
                 <div className="row justify-content-center">
                     <MemberCard
@@ -56,6 +61,10 @@ export default function About() {
                         name="Elizabeth Wangari"
                         position="Managing Partner · CEO " />
                 </div>
+            </section>
+
+            <section className='performance'>
+
             </section>
 
             <Footer />

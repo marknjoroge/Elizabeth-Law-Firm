@@ -29,21 +29,21 @@ export default function Nav() {
 
 
 						<li className="nav-item dropdown" style={{float: "left"}}>
-							<a href="#" className="nav-link">
+							<a href="/practices" className="nav-link">
 								<strong className="d-none d-sm-block ms-1">Practice Areas</strong>
 							</a>
 							<ul className="dropdown-content dropdown-menu">
-								<li><a href="#">Banking law</a></li>
-								<li><a href="#">Corporate law</a></li>
-								<li><a href="#">Labor law</a></li>
-								<li><a href="#">Litigation</a></li>
-								<li><a href="#">Real estate law</a></li>
-								<li><a href="#">Tax law</a></li>
-								<li><a href="#">Administrative law</a></li>
+								<li><a href="/practices#banking">Banking law</a></li>
+								<li><a href="/practices#corporate">Corporate law</a></li>
+								<li><a href="/practices#labor">Labor law</a></li>
+								<li><a href="/practices#litigation">Litigation</a></li>
+								<li><a href="/practices#real-estate">Real estate law</a></li>
+								<li><a href="/practices#tax">Tax law</a></li>
+								<li><a href="/practices#administrative">Administrative law</a></li>
 							</ul>
 						</li>
 
-						<li className="dropdown" style={{float: "right"}}>
+						{/* <li className="dropdown" style={{float: "right"}}>
 							<a href="#" className="nav-link">
 								<strong className="d-none d-sm-block ms-1">Help</strong>
 							</a>
@@ -51,13 +51,13 @@ export default function Nav() {
 								<li><a href="#">Frequently asked questions</a></li>
 								<li><a href="#">Book a session</a></li>
 							</ul>
-						</li>
+						</li> */}
 
-						<li className="nav-item me-3 me-lg-1">
+						{/* <li className="nav-item me-3 me-lg-1">
 							<a className="nav-link d-sm-flex align-items-sm-center" href="#">
 								<strong className="d-none d-sm-block ms-1">Blogs</strong>
 							</a>
-						</li>
+						</li> */}
 
 						<li className="nav-item me-3 me-lg-1">
 							<a className="nav-link d-sm-flex align-items-sm-center" href="/contact">

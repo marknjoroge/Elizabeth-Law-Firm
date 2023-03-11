@@ -7,7 +7,7 @@
 .about-title p {
     font-size: 50px;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     padding-bottom: 10px;
     text-decoration: solid underline var(--tertiary-color-1) 10px;
     text-underline-offset: 20px;
@@ -23,8 +23,9 @@
     font-size: 20px;
     font-weight: 100;
     margin-bottom: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
     text-align: center;
+    position: relative;
 }
 
 .team-title span {
@@ -78,3 +79,4 @@
     font-size: 13px;
     margin-bottom: 10px;
 }
+
