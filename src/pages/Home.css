@@ -1,0 +1,60 @@
+.hero {
+    padding: 70px;
+    height: 70vh;
+}
+
+.hero-content p {
+    font-size: 13px;
+}
+
+.call-to-action button {
+    margin: 60px 30px 0px 0px;
+}
+
+#divider-1 {
+    background: url('../assets/right-angle.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20px;
+}
+
+.home .fields {
+    min-height: 70vh;
+    background-color: var(--tertiary-color);
+    overflow-x: hidden;
+}
+
+.field-header {
+    text-align: center;
+    margin: 60px 0px 0px;
+    color: var(--primary-color);
+}
+
+.field-header h3 {
+    font-size: 1.3rem;
+    font-weight: 900;
+    letter-spacing: 1.3px;
+}
+
+.fields .single-field {
+    max-width: 500px;
+    color: var(--primary-color-1);
+    margin: 60px 20px;
+    /* Border on the left and bottom of single-field */
+    /* border-right: 3px solid var(--secondary-color);
+    border-bottom: 3px solid var(--primary-color);
+    padding: 20px;
+    box-shadow: 5px 5px 0px var(--primary-color); */
+}
+
+.fields .single-field img {
+    width: 50px;
+    margin: 10px 0px 25px;
+}
+
+.fields .single-field p {
+    font-size: 1.0rem;
+    letter-spacing: 1.3px;
+    margin: 0px 0px 10px;
+    font-weight: 200;
+}
