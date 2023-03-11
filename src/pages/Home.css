@@ -7,7 +7,7 @@
     font-size: 13px;
 }
 
-.call-to-action button {
+.hero-buttons button {
     margin: 60px 30px 0px 0px;
 }
 
@@ -40,11 +40,6 @@
     max-width: 500px;
     color: var(--primary-color-1);
     margin: 60px 20px;
-    /* Border on the left and bottom of single-field */
-    /* border-right: 3px solid var(--secondary-color);
-    border-bottom: 3px solid var(--primary-color);
-    padding: 20px;
-    box-shadow: 5px 5px 0px var(--primary-color); */
 }
 
 .fields .single-field img {
@@ -57,4 +52,35 @@
     letter-spacing: 1.3px;
     margin: 0px 0px 10px;
     font-weight: 200;
+}
+
+.about {
+    background-color: var(--primary-color);
+    overflow-x: hidden;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.about-stat {
+    display: inline-block;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: fit-content;
+    background-color: var(--tertiary-color-1);
+}
+
+.about-stat .stat-title {
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 1.3px;
+    margin: 0px 0px 30px;
+}
+
+.about-stat .stat-desc {
+    font-size: 1.0rem;
+    font-weight: 200;
+    letter-spacing: 1.3px;
 }

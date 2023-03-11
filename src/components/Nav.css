@@ -1,3 +1,7 @@
+.navbar {
+    padding: 10px 60px;
+}
+
 .my-nav .nav-title {
     font-variant: small-caps;
 }

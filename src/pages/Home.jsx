@@ -28,7 +28,7 @@ function Home() {
                             <h1>Experience · integrity · results</h1>
                         </div>
 
-                        <div className="call-to-action">
+                        <div className='hero-buttons'>
                             <button className="btn btn-1">Consult</button>
                             <button className="btn btn-2">About Us</button>
                         </div>
@@ -90,37 +90,35 @@ function Home() {
             <CallToAction />
 
             <section className="about">
-                <div classsName="row justify-content-center">
-                    <div className="col text-center about-stat">
-                        <div className='stat-title'>
-                            280+
-                        </div>
-                        <div className='stat-desc'>
-                            Happy clients
-                        </div>
+                <div className="text-center about-stat">
+                    <div className='stat-title'>
+                        20
                     </div>
-                    <div className="col text-center about-stat">
-                        <div className='stat-title'>
-                            280+
-                        </div>
-                        <div className='stat-desc'>
-                            Happy clients
-                        </div>
+                    <div className='stat-desc'>
+                        Fully qualified associates
                     </div>
-                    <div className="col text-center about-stat">
-                        <div className='stat-title'>
-                            280+
-                        </div>
-                        <div className='stat-desc'>
-                            Happy clients
-                        </div>
+                </div>
+                <div className="text-center about-stat">
+                    <div className='stat-title'>
+                        10+
+                    </div>
+                    <div className='stat-desc'>
+                        Years
+                    </div>
+                </div>
+                <div className="text-center about-stat">
+                    <div className='stat-title'>
+                        280+
+                    </div>
+                    <div className='stat-desc'>
+                        Happy clients
                     </div>
                 </div>
             </section>
 
             <CallToAction />
 
-            <hr/>
+            <hr />
 
             <Footer />
         </div>

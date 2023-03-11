@@ -17,13 +17,13 @@ export default function Nav() {
 
 					<ul className="navbar-nav flex-row">
 						<li className="nav-item dropdown" style={{float: "right"}}>
-							<a href="#" className="nav-link">
+							<a href="/about" className="nav-link">
 								<strong className="d-none d-sm-block ms-1">About</strong>
 							</a>
 							<ul className="dropdown-content dropdown-menu">
-								<li><a href="#">Overview & philosophy</a></li>
-								<li><a href="#">The team</a></li>
-								<li><a href="#">Awards & testimonials</a></li>
+								<li><a href="/about#overview">Overview & philosophy</a></li>
+								<li><a href="/about#team">The team</a></li>
+								<li><a href="/about#performance">Awards & testimonials</a></li>
 							</ul>
 						</li>
 
@@ -60,7 +60,7 @@ export default function Nav() {
 						</li>
 
 						<li className="nav-item me-3 me-lg-1">
-							<a className="nav-link d-sm-flex align-items-sm-center" href="#">
+							<a className="nav-link d-sm-flex align-items-sm-center" href="/contact">
 								<strong className="d-none d-sm-block ms-1">Contact Us</strong>
 							</a>
 						</li>

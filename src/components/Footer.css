@@ -47,8 +47,8 @@
 }
 
 .footer-copyright {
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 13px;
+    font-weight: 100;
     color: var(--secondary-color-1);
     padding: 0px;
     margin: 0px;

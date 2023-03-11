@@ -37,7 +37,12 @@ export default function Footer() {
 			<div className="footer-socials" align="center">
 				<a href="#"><i className="fa-brands fa-facebook-f"></i></a>
 				<a href="#"><i className="fa-brands fa-twitter"></i></a>
-				<a href="#"><i className="fa-brands fa-whatsapp"></i></a>
+				<a href="https://wa.me/254724396320">
+					<i className="fa-brands fa-whatsapp"></i>
+				</a>
+				<a href="https://www.linkedin.com/in/elizabeth-wangari-07713665/">
+					<i className="fa-brands fa-linkedin"></i>
+				</a>
 			</div>
 			<hr />
 			<div className="footer-copyright" align="center">

@@ -1,10 +1,41 @@
 .call-to-action-section {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 30vh;
     background-color: var(--primary-color);
     color: var(--secondary-color);
     padding: 70px;
+}
+
+.call-to-action-button {
+    text-align: center;
+    margin: 60px;
+    padding: 20px;
+    width: 200px;
+}
+
+.call-to-action {
+    background-color: var(--tertiary-color-1);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.call-to-action:hover {
+    background-color: white;
+}
+
+.call-to-action-button a {
+    color: var(--secondary-color-1);
+}
+
+.call-to-action-button i {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .call-to-action {
+
+    }
 }

@@ -1,0 +1,80 @@
+#overview {
+    padding: 200px 60px;
+    line-height: 30px;
+    word-spacing: 5px;
+}
+
+.about-title p {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-decoration: solid underline var(--tertiary-color-1) 10px;
+    text-underline-offset: 20px;
+}
+
+#overview article {
+    background-color: var(--tertiary-color-1);
+    padding: 60px;
+    border-radius: 20px;
+}
+
+.team-title {
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.team-title span {
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.team-member {
+    background-color: var(--tertiary-color-1);
+    border-radius: 20px;
+    margin: 50px;
+    width: 300px;
+    height: 280px;
+    overflow: visible;
+    position: relative;
+    transition: all 0.7s ease-in-out;
+}
+
+.team-member:hover {
+    cursor: pointer;
+    border-radius: 12px;
+    background-color: var(--secondary-color-1);
+}
+
+.team-member:hover .member-image {
+    top: -80px;
+}
+
+.member-image {
+    width: 250px;
+    position: absolute;
+    top: -100px;
+    transition: all 0.7s ease-in-out;
+}
+
+.member-text {
+    position: absolute;
+    bottom: 20px;
+}
+
+.member-name {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-variant-caps: all-petite-caps;
+    letter-spacing: 2px;
+}
+
+.member-position {
+    font-weight: 900;
+    letter-spacing: 1.1px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
