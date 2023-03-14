@@ -9,12 +9,12 @@
     font-weight: 600;
     margin-bottom: 60px;
     padding-bottom: 10px;
-    text-decoration: solid underline var(--tertiary-color-1) 10px;
+    text-decoration: solid underline var(--tertiary-color-2) 10px;
     text-underline-offset: 20px;
 }
 
 #overview article {
-    background-color: var(--tertiary-color-1);
+    background-color: var(--tertiary-color-2);
     padding: 60px;
     border-radius: 20px;
 }
@@ -34,7 +34,7 @@
 }
 
 .team-member {
-    background-color: var(--tertiary-color-1);
+    background-color: var(--tertiary-color-2);
     border-radius: 20px;
     margin: 50px;
     width: 300px;

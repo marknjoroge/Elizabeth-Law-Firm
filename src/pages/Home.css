@@ -48,7 +48,7 @@
 
 #fields-title {
     color: var(--tertiary-color);
-    font-weight: 900;
+    /* font-weight: 900; */
     letter-spacing: 1.3px;
     margin: 0px 0px 30px;
 }

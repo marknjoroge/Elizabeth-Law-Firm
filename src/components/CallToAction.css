@@ -4,7 +4,7 @@
     justify-content: center;
     height: 30vh;
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
     padding: 70px;
 }
 
@@ -16,13 +16,14 @@
 }
 
 .call-to-action {
-    background-color: var(--tertiary-color-1);
+    background-color: var(--tertiary-color-2);
     padding: 20px;
     border-radius: 5px;
+    transition: all 0.7s ease-in-out;
 }
 
 .call-to-action:hover {
-    background-color: white;
+    background-color: var(--secondary-color-1);
 }
 
 .call-to-action-button a {

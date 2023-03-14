@@ -1,0 +1,25 @@
+.practice-mini-blog {
+    min-height: 50vh;
+    background-size: cover;
+    padding: 40px;
+}
+
+.practice-mini-blog article {
+    line-height: 35px;
+    padding: 50px;
+    min-width: 500px;
+    width: 70%;
+    font-size: 20px;
+    color: var(--secodary-color);
+}
+
+.practice-mini-blog li {
+    padding: 20px;
+    list-style: lower-greek;
+}
+
+.practice-mini-blog .big-btn {
+    width: 300px;
+    padding: 40px;
+    margin: 80px 0px 20px;
+}
